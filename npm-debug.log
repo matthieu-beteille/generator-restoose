@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Mattou\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Mattou\\AppData\\Local\\Temp\\npm-17580-P30uUXnT\\1415309737244-0.21449187397956848\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz
+13 verbose folder .
+14 info prepublish generator-restoose@0.1.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Mattou\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile c423dcda-7244-0-21449187397956848-tmp-tgz tar://C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz
+18 verbose lock tar://C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz C:\Users\Mattou\AppData\Roaming\npm-cache\c423dcda-7244-0-21449187397956848-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile c423dcda-7244-0-21449187397956848-tmp-tgz tar://C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz
+22 silly lockFile c423dcda-7244-0-21449187397956848-tmp-tgz tar://C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz
+23 verbose tar unpack C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz
+24 silly lockFile 5d75cb96-generator-restoose-0-1-0-package tar://C:\Users\Mattou\AppData\Roaming\npm-cache\generator-restoose\0.1.0\package
+25 verbose lock tar://C:\Users\Mattou\AppData\Roaming\npm-cache\generator-restoose\0.1.0\package C:\Users\Mattou\AppData\Roaming\npm-cache\5d75cb96-generator-restoose-0-1-0-package.lock
+26 silly lockFile c423dcda-7244-0-21449187397956848-tmp-tgz tar://C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz
+27 verbose lock tar://C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz C:\Users\Mattou\AppData\Roaming\npm-cache\c423dcda-7244-0-21449187397956848-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry generators/app/index.js
+36 silly gunzTarPerm modified mode [ 'generators/app/index.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry generators/app/templates/controller.js
+38 silly gunzTarPerm modified mode [ 'generators/app/templates/controller.js', 438, 420 ]
+39 silly gunzTarPerm extractEntry generators/app/templates/model.js
+40 silly gunzTarPerm modified mode [ 'generators/app/templates/model.js', 438, 420 ]
+41 silly lockFile 5d75cb96-generator-restoose-0-1-0-package tar://C:\Users\Mattou\AppData\Roaming\npm-cache\generator-restoose\0.1.0\package
+42 silly lockFile 5d75cb96-generator-restoose-0-1-0-package tar://C:\Users\Mattou\AppData\Roaming\npm-cache\generator-restoose\0.1.0\package
+43 silly lockFile c423dcda-7244-0-21449187397956848-tmp-tgz tar://C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz
+44 silly lockFile c423dcda-7244-0-21449187397956848-tmp-tgz tar://C:\Users\Mattou\AppData\Local\Temp\npm-17580-P30uUXnT\1415309737244-0.21449187397956848\tmp.tgz
+45 silly lockFile 3a52ce78- .
+46 silly lockFile 3a52ce78- .
+47 silly publish { name: 'generator-restoose',
+47 silly publish   version: '0.1.0',
+47 silly publish   description: '',
+47 silly publish   main: 'index.js',
+47 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+47 silly publish   author: { name: 'Matthieu Béteille' },
+47 silly publish   license: 'MIT',
+47 silly publish   keywords: [ 'yeoman-generator' ],
+47 silly publish   dependencies: { ncp: '^1.0.1', 'yeoman-generator': '^0.17.7' },
+47 silly publish   readme: 'ERROR: No README data found!',
+47 silly publish   readmeFilename: 'README.md',
+47 silly publish   _id: 'generator-restoose@0.1.0',
+47 silly publish   _shasum: '4402badfaa493b9cc86ce6dc522655fcef2d5b8d',
+47 silly publish   _from: '.' }
+48 verbose url raw generator-restoose
+49 verbose url resolving [ 'https://registry.npmjs.org/', './generator-restoose' ]
+50 verbose url resolved https://registry.npmjs.org/generator-restoose
+51 info trying registry request attempt 1 at 22:35:37
+52 http PUT https://registry.npmjs.org/generator-restoose
+53 http 403 https://registry.npmjs.org/generator-restoose
+54 verbose headers { date: 'Thu, 06 Nov 2014 21:35:51 GMT',
+54 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 verbose headers   'content-type': 'application/json',
+54 verbose headers   'cache-control': 'max-age=60',
+54 verbose headers   'content-length': '1806',
+54 verbose headers   'accept-ranges': 'bytes',
+54 verbose headers   via: '1.1 varnish',
+54 verbose headers   'x-served-by': 'cache-fra1243-FRA',
+54 verbose headers   'x-cache': 'MISS',
+54 verbose headers   'x-cache-hits': '0',
+54 verbose headers   'x-timer': 'S1415309750.795527,VS0,VE671',
+54 verbose headers   'keep-alive': 'timeout=10, max=50',
+54 verbose headers   connection: 'Keep-Alive' }
+55 error publish Failed PUT 403
+56 error Error: forbidden cannot modify pre-existing version: 0.1.0
+56 error old={"name":"generator-restoose","version":"0.1.0","description":"","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"author":{"name":"Matthieu Béteille"},"license":"MIT","keywords":["yeoman-generator"],"dependencies":{"ncp":"^1.0.1","yeoman-generator":"^0.17.7"},"_id":"generator-restoose@0.1.0","_shasum":"3af3bd53505737be5610778e8e897abfda67df3c","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"matthieu-beteille","email":"matthieu.beteille@gmail.com"},"maintainers":[{"name":"matthieu-beteille","email":"matthieu.beteille@gmail.com"}],"dist":{"shasum":"3af3bd53505737be5610778e8e897abfda67df3c","tarball":"http://registry.npmjs.org/generator-restoose/-/generator-restoose-0.1.0.tgz"}}
+56 error new={"name":"generator-restoose","version":"0.1.0","description":"","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"author":{"name":"Matthieu Béteille"},"license":"MIT","keywords":["yeoman-generator"],"dependencies":{"ncp":"^1.0.1","yeoman-generator":"^0.17.7"},"readme":"ERROR: No README data found!","readmeFilename":"README.md","_id":"generator-restoose@0.1.0","_shasum":"4402badfaa493b9cc86ce6dc522655fcef2d5b8d","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"matthieu-beteille","email":"matthieu.beteille@gmail.com"},"maintainers":[{"name":"matthieu-beteille","email":"matthieu.beteille@gmail.com"}],"dist":{"shasum":"4402badfaa493b9cc86ce6dc522655fcef2d5b8d","tarball":"http://registry.npmjs.org/generator-restoose/-/generator-restoose-0.1.0.tgz"}}: generator-restoose
+56 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+56 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+56 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+56 error     at Request.EventEmitter.emit (events.js:98:17)
+56 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+56 error     at Request.EventEmitter.emit (events.js:117:20)
+56 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+56 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+56 error     at _stream_readable.js:919:16
+56 error     at process._tickCallback (node.js:419:13)
+57 error If you need help, you may report this *entire* log,
+57 error including the npm and node versions, at:
+57 error     <http://github.com/npm/npm/issues>
+58 error System Windows_NT 6.2.9200
+59 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+60 error cwd C:\Users\Mattou\Documents\GitHub\generator-restoose
+61 error node -v v0.10.28
+62 error npm -v 1.4.9
+63 verbose exit [ 1, true ]
